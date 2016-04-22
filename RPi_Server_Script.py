@@ -54,6 +54,7 @@ if __name__ == "__main__":
 	GPIO.setmode(GPIO.BCM)
 	GPIO.setup(PIN, GPIO.OUT)
 	
+	# create a thread so that socket operation doesn't interfere with the GPIO operation
 	thread = threading.Thread(target = process)
 	thread.daemon = True
 	thread.start()
