@@ -6,9 +6,9 @@ Using Android Wear
 
 This project can be used for interacting with any device on a the same network as your wear device.
 
-(the android code was written from scratch)
+(the code was re-written from scratch (pretty much))
 
-Original Idea (and python code):
+Original Idea:
 
 http://androidsensei.com//2015/10/18/voice-commands-wear-pi.html
 
